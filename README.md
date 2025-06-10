@@ -1,5 +1,5 @@
 
-# 🧠 CS5720 – Home Assignment 2  
+ CS5720 – Home Assignment 2  
 **Course:** Neural Networks and Deep Learning  
 **University:** University of Central Missouri  
 **Semester:** Summer 2025  
@@ -7,11 +7,11 @@
 
 ---
 
-## 📌 Assignment Description
+##  Assignment Description
 
 This assignment demonstrates fundamental operations in Convolutional Neural Networks (CNNs) and data preprocessing techniques in deep learning. It is divided into three key sections:
 
-### ✅ Q1. Convolution Operations with Different Parameters
+###  Q1. Convolution Operations with Different Parameters
 - Performed convolution on a 5×5 input matrix using a 3×3 kernel.
 - Implemented 4 different configurations using TensorFlow:
   - Stride = 1, Padding = 'VALID'
@@ -22,9 +22,9 @@ This assignment demonstrates fundamental operations in Convolutional Neural Netw
 
 ---
 
-### ✅ Q2. CNN Feature Extraction with Filters and Pooling
+###  Q2. CNN Feature Extraction with Filters and Pooling
 
-#### 🧩 Task 1: Sobel Edge Detection
+#### Task 1: Sobel Edge Detection
 - Loaded a grayscale image (`my_image.jpg`).
 - Applied **Sobel-X** and **Sobel-Y** filters using OpenCV.
 - Displayed:
@@ -32,7 +32,7 @@ This assignment demonstrates fundamental operations in Convolutional Neural Netw
   - Edge-detected image (X-direction)
   - Edge-detected image (Y-direction)
 
-#### 🧩 Task 2: Max and Average Pooling
+#### Task 2: Max and Average Pooling
 - Created a random **4×4 matrix** as input.
 - Applied:
   - **2×2 Max Pooling**
@@ -41,7 +41,7 @@ This assignment demonstrates fundamental operations in Convolutional Neural Netw
 
 ---
 
-### ✅ Q3. Data Preprocessing: Normalization vs. Standardization
+###  Q3. Data Preprocessing: Normalization vs. Standardization
 - Loaded the **Iris dataset** using `sklearn.datasets`.
 - Applied:
   - **Min-Max Normalization**
@@ -56,11 +56,3 @@ This assignment demonstrates fundamental operations in Convolutional Neural Netw
 
 ---
 
-## 📁 Project Structure
-
-```bash
-├── Q1_Convolution.py               # Convolution with stride and padding variations
-├── Q2_Edge_Pooling.py             # Sobel filter and pooling demo
-├── Q3_DataPreprocessing.py        # Normalization, standardization, logistic regression
-├── my_image.jpg                   # Input grayscale image for edge detection
-├── README.md                      # Assignment documentation
